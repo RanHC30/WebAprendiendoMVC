@@ -1,0 +1,34 @@
+﻿body {
+
+}
+
+/*Este utiliza el "#" que es el selector
+  aplica para un elemento con un id específico
+*/
+#imagenEmpresa{
+    max-width:400px;
+    border-radius: 20px;
+}
+
+/*Este utiliza el "." lo que hace que las 
+  características se pasen a las imagenes en general
+  que entren en la clase "imagenes"    
+*/
+.imagenes{
+    max-width:400px;
+    border-radius: 20px;
+}
+
+.centrarElementos{
+    text-align:center;
+    justify-content:center;
+    max-width:700px;
+    margin:auto;
+    background-color:#fc6073f2;
+
+    /*dejar espacios internos*/
+    padding: 30px;
+    /*El comando "color" cambia el color de la letra*/
+    border-radius:20px;
+    box-shadow:10px 10px 30px #272424;
+}
